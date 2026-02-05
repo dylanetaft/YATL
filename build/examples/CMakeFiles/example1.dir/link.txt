@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/example1.dir/link.d CMakeFiles/example1.dir/example1.c.o -o example1  ../libyatl.a

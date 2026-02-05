@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/runner/work/YATL/YATL/build",
+  "command": "/usr/bin/cc  -I/home/runner/work/YATL/YATL/include -std=gnu11 -o CMakeFiles/yatl.dir/src/yatl.c.o -c /home/runner/work/YATL/YATL/src/yatl.c",
+  "file": "/home/runner/work/YATL/YATL/src/yatl.c",
+  "output": "CMakeFiles/yatl.dir/src/yatl.c.o"
+},
+{
+  "directory": "/home/runner/work/YATL/YATL/build",
+  "command": "/usr/bin/cc  -I/home/runner/work/YATL/YATL/include -std=gnu11 -o CMakeFiles/yatl.dir/src/yatl_lexer.c.o -c /home/runner/work/YATL/YATL/src/yatl_lexer.c",
+  "file": "/home/runner/work/YATL/YATL/src/yatl_lexer.c",
+  "output": "CMakeFiles/yatl.dir/src/yatl_lexer.c.o"
+},
+{
+  "directory": "/home/runner/work/YATL/YATL/build",
+  "command": "/usr/bin/cc  -I/home/runner/work/YATL/YATL/include -std=gnu11 -o CMakeFiles/yatl.dir/src/yatl_writer.c.o -c /home/runner/work/YATL/YATL/src/yatl_writer.c",
+  "file": "/home/runner/work/YATL/YATL/src/yatl_writer.c",
+  "output": "CMakeFiles/yatl.dir/src/yatl_writer.c.o"
+},
+{
+  "directory": "/home/runner/work/YATL/YATL/build/examples",
+  "command": "/usr/bin/cc  -I/home/runner/work/YATL/YATL/include -std=gnu11 -o CMakeFiles/example1.dir/example1.c.o -c /home/runner/work/YATL/YATL/examples/example1.c",
+  "file": "/home/runner/work/YATL/YATL/examples/example1.c",
+  "output": "examples/CMakeFiles/example1.dir/example1.c.o"
+},
+{
+  "directory": "/home/runner/work/YATL/YATL/build/examples",
+  "command": "/usr/bin/cc  -I/home/runner/work/YATL/YATL/include -std=gnu11 -o CMakeFiles/replace_array.dir/replace_array.c.o -c /home/runner/work/YATL/YATL/examples/replace_array.c",
+  "file": "/home/runner/work/YATL/YATL/examples/replace_array.c",
+  "output": "examples/CMakeFiles/replace_array.dir/replace_array.c.o"
+},
+{
+  "directory": "/home/runner/work/YATL/YATL/build/tests",
+  "command": "/usr/bin/cc  -I/home/runner/work/YATL/YATL/build/_deps/munit-src -std=gnu11 -o CMakeFiles/munit.dir/__/_deps/munit-src/munit.c.o -c /home/runner/work/YATL/YATL/build/_deps/munit-src/munit.c",
+  "file": "/home/runner/work/YATL/YATL/build/_deps/munit-src/munit.c",
+  "output": "tests/CMakeFiles/munit.dir/__/_deps/munit-src/munit.c.o"
+},
+{
+  "directory": "/home/runner/work/YATL/YATL/build/tests",
+  "command": "/usr/bin/cc  -I/home/runner/work/YATL/YATL/src -I/home/runner/work/YATL/YATL/include -I/home/runner/work/YATL/YATL/build/_deps/munit-src -std=gnu11 -o CMakeFiles/test_yatl.dir/test_yatl.c.o -c /home/runner/work/YATL/YATL/tests/test_yatl.c",
+  "file": "/home/runner/work/YATL/YATL/tests/test_yatl.c",
+  "output": "tests/CMakeFiles/test_yatl.dir/test_yatl.c.o"
+}
+]

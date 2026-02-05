@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmunit.a "CMakeFiles/munit.dir/__/_deps/munit-src/munit.c.o"
+/usr/bin/ranlib libmunit.a
