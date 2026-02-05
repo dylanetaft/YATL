@@ -1,0 +1,33 @@
+# Top-level variables
+title = "Test Document"
+version = 42
+enabled = true
+
+# A simple table
+[database]
+host = "localhost"
+port = 5432
+
+# Nested table
+[server.http]
+listen = "0.0.0.0"
+port = 8080
+
+[server.https]
+listen = "0.0.0.0"
+port = 443
+cert = "/etc/ssl/cert.pem"
+
+# Table with inline tables
+[users]
+admin = { name = "Alice", role = "admin", active = true }
+guest = { name = "Bob", role = "guest", active = false }
+
+# Array of inline tables
+[[items]]
+id = 1
+data = { x = 10, y = 20, nested = { value = 100 } }
+
+[[items]]
+id = 2
+data = { x = 30, y = 40, nested = { value = 200 } }

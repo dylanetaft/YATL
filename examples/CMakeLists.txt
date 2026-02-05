@@ -10,4 +10,6 @@ else()
 endif()
 
 add_executable(example1 example1.c)
+add_executable(replace_array replace_array.c)
 target_link_libraries(example1 PRIVATE ${YATL_LIB})
+target_link_libraries(replace_array PRIVATE ${YATL_LIB})

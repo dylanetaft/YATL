@@ -27,19 +27,19 @@ static inline bool _is_hex(char c) {
 // ---------------------------------------------------------------------
 
 typedef enum {
-    _TOML_TABLE_HEADER,
-    _TOML_TABLE_ARRAY_HEADER,
-    _TOML_TABLE_BODY,
-    _TOML_TABLE_ARRAY_BODY,
-    _TOML_COMMENT,
-    _TOML_KEY,
-    _TOML_VALUE,
-    _TOML_STR_BASIC,       // "..." single line, with escapes
-    _TOML_STR_LITERAL,     // '...' single line, no escapes
-    _TOML_STR_ML_BASIC,    // """...""" multiline, with escapes
-    _TOML_STR_ML_LITERAL,  // '''...''' multiline, no escapes
-    _TOML_ARRAY,           // [...] inline array (handles nesting)
-    _TOML_INLINE_TABLE,    // {...} inline table (handles nesting)
+  _TOML_TABLE_HEADER,
+  _TOML_TABLE_ARRAY_HEADER,
+  _TOML_TABLE_BODY,
+  _TOML_TABLE_ARRAY_BODY,
+  _TOML_COMMENT,
+  _TOML_KEY,
+  _TOML_VALUE,
+  _TOML_STR_BASIC,      // "..." single line, with escapes
+  _TOML_STR_LITERAL,    // '...' single line, no escapes
+  _TOML_STR_ML_BASIC,   // """...""" multiline, with escapes
+  _TOML_STR_ML_LITERAL, // '''...''' multiline, no escapes
+  _TOML_ARRAY,          // [...] inline array (handles nesting)
+  _TOML_INLINE_TABLE,   // {...} inline table (handles nesting)
 } _TOMLToken_t;
 
 // ---------------------------------------------------------------------
@@ -47,7 +47,7 @@ typedef enum {
 // ---------------------------------------------------------------------
 
 // Get string name for token type (for debugging)
-const char* _TOMLToken_name(_TOMLToken_t token);
+const char *_TOMLToken_name(_TOMLToken_t token);
 
 // Skip whitespace, leaving cursor at first non-whitespace character
 // Returns YATL_DONE if end of document reached

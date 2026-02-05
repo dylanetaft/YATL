@@ -1,0 +1,17 @@
+# Test file for span unlink/relink
+
+[header]
+name = "test"
+
+# Nested array - span is mid-line
+testarray = [1, 2, [1, 2, 3], 4]
+
+[middle]
+value = 42
+
+# Standalone table for negative test
+[standalone]
+key = "value"
+
+[footer]
+done = true

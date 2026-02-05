@@ -1,0 +1,23 @@
+basic = "I'm a string"
+escaped = "Line1\nLine2\tTabbed"
+unicode = "日本語"
+emoji = "🎉🚀"
+path = "C:\\Users\\test"
+quote = "He said \"hello\""
+
+literal = 'no\escapes\here'
+winpath = 'C:\Users\test'
+
+multiline_basic = """
+Roses are red
+Violets are blue"""
+
+multiline_literal = '''
+First line
+Second line
+Third line'''
+
+trimmed = """\
+    The quick brown \
+    fox jumps over \
+    the lazy dog."""

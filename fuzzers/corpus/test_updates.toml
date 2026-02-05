@@ -1,0 +1,5 @@
+# Test file for YATL_span_set_value tests
+name = "short"
+count = 42
+quoted = "hello"
+same = "12345"

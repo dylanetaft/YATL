@@ -10,6 +10,7 @@ project(yatl
 option(YATL_BUILD_SHARED "Build shared library instead of static" OFF)
 option(YATL_BUILD_EXAMPLES "Build example programs" ON)
 option(YATL_BUILD_TESTS "Build test cases" ON)
+option(YATL_BUILD_FUZZERS "Build fuzzing targets" ON)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
@@ -18,6 +19,7 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 set(YATL_SOURCES
     src/yatl.c
     src/yatl_lexer.c
+    src/yatl_writer.c
 )
 
 set(YATL_HEADERS
@@ -83,6 +85,10 @@ install(FILES
 # Subdirectories
 if(YATL_BUILD_EXAMPLES)
     add_subdirectory(examples)
+endif()
+
+if(YATL_BUILD_FUZZERS)
+    add_subdirectory(fuzzers)
 endif()
 
 if(YATL_BUILD_TESTS)

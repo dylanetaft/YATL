@@ -1,0 +1,14 @@
+integers = [1, 2, 3, 4, 5]
+strings = ["a", "b", "c"]
+mixed = [1, "two", 3.0]
+nested = [[1, 2], [3, 4, 5]]
+empty = []
+
+[[products]]
+name = "Hammer"
+sku = 738594937
+
+[[products]]
+name = "Nail"
+sku = 284758393
+color = "gray"

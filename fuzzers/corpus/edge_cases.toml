@@ -1,0 +1,17 @@
+# Edge cases for fuzzing
+"" = "empty key"
+"127.0.0.1" = "dotted key as string"
+"character encoding" = "ʎǝʞ"
+" " = "space key"
+
+[a.b.c]
+d = 1
+
+["quoted.table.name"]
+key = "value"
+
+[x.y.z]
+[[x.y.z.w]]
+name = "first"
+[[x.y.z.w]]
+name = "second"
