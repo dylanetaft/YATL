@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/test_yatl.dir/link.d CMakeFiles/test_yatl.dir/test_yatl.c.o -o test_yatl  ../libyatl.a libmunit.a

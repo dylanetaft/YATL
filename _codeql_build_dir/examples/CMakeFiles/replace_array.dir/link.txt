@@ -1,1 +1,0 @@
-/home/runner/work/YATL/.codeql-scratch/dbs/cpp/working/autobuild/bin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/replace_array.dir/link.d CMakeFiles/replace_array.dir/replace_array.c.o -o replace_array  ../libyatl.a

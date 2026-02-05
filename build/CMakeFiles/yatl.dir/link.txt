@@ -1,2 +1,0 @@
-/usr/bin/ar qc libyatl.a CMakeFiles/yatl.dir/src/yatl.c.o CMakeFiles/yatl.dir/src/yatl_lexer.c.o CMakeFiles/yatl.dir/src/yatl_writer.c.o
-/usr/bin/ranlib libyatl.a

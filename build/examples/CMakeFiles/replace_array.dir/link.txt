@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/replace_array.dir/link.d CMakeFiles/replace_array.dir/replace_array.c.o -o replace_array  ../libyatl.a
