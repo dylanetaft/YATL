@@ -6,14 +6,14 @@
 
 YATL is designed with simplicity and reliability in mind:
 
-- **Zero allocation** — No heap allocations required
+- **Minimal allocations** — Read operations aim for zero allocations; write operations use stack memory primarily with minimal heap usage for line management
 - **Format-preserving** — Edits maintain your original formatting, comments, and whitespace
 - **Simple API** — Clean, straightforward syntax for parsing and editing
 - **Memory-safe by design** — Heavy use of stack and static memory, opaque types, and initialization detection to prevent common memory bugs
 
 ## Documentation
 
-https://df00znet-dev.github.io/YATL/ for more detailed usage information.
+See [YATL.md](YATL.md) for detailed usage information and the API documentation at https://dylanetaft.github.io/YATL/
 
 ## Examples
 

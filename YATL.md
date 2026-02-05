@@ -55,7 +55,7 @@ they are required to call on any object that will be passed as
 an input parameter to the public API.
 
 Output parameters are initialized by the API.
-If you do not initialize, for example, an input cursor, the behavior is defined.
+If you do not initialize, for example, an input cursor, the behavior is undefined.
 The API will fail with an error code.
 
 tl;dr - `YATL_Cursor_t cursor = YATL_cursor_create()` = good.
@@ -122,7 +122,7 @@ document's line list. This allows for:
 ### Security ###
 
 The parser has had limited fuzz testing performed but has not undergone extensive security review.
-Thus far, no memory safety issues have been found, however infinute loops have been
+Thus far, no memory safety issues have been found, however infinite loops have been
 found and corrected via fuzz testing. The software is provided as-is without warranty. 
 Use at your own risk. 
 

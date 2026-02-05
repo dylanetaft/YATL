@@ -229,7 +229,7 @@ typedef enum {
   YATL_ERR_SYNTAX = -2,    /**< TOML syntax error */
   YATL_ERR_NOT_FOUND = -3, /**< Requested item not found */
   YATL_ERR_TYPE = -4,      /**< Type mismatch error */
-  YATL_ERR_BUFFERi = -5,   /**< Buffer too small */
+  YATL_ERR_BUFFER = -5,   /**< Buffer too small */
   YATL_ERR_NOMEM = -6,     /**< Memory allocation failed */
   YATL_ERR_INVALID_ARG =
       -7, /**< Invalid argument (NULL pointer, uninitialized struct) */
