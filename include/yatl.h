@@ -134,12 +134,6 @@ typedef enum {
   YATL_LOG_ERROR  /**< Error messages */
 } YATL_log_level_t;
 
-/**
- * @brief Enable YATL logging
- * @ingroup yatl_logging
- */
-#define YATL_ENABLE_LOGGING
-
 #ifdef YATL_ENABLE_LOGGING
 #ifndef LOG_LEVEL
 #define LOG_LEVEL YATL_LOG_DEBUG

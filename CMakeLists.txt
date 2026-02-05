@@ -11,6 +11,7 @@ option(YATL_BUILD_SHARED "Build shared library instead of static" OFF)
 option(YATL_BUILD_EXAMPLES "Build example programs" ON)
 option(YATL_BUILD_TESTS "Build test cases" ON)
 option(YATL_BUILD_FUZZERS "Build fuzzing targets" ON)
+option(YATL_ENABLE_LOGGING "Enable debug logging" OFF)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
@@ -38,6 +39,10 @@ target_include_directories(yatl
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
 )
+
+if(YATL_ENABLE_LOGGING)
+    target_compile_definitions(yatl PUBLIC YATL_ENABLE_LOGGING)
+endif()
 
 set_target_properties(yatl PROPERTIES
     VERSION ${PROJECT_VERSION}

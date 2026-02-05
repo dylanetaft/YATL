@@ -119,6 +119,14 @@ document's line list. This allows for:
 - Building new content from prefix/suffix fragments
 - Atomic edit operations with rollback on failure
 
+### Security ###
+
+The parser has had limited fuzz testing performed but has not undergone extensive security review.
+Thus far, no memory safety issues have been found, however infinute loops have been
+found and corrected via fuzz testing. The software is provided as-is without warranty. 
+Use at your own risk. 
+
+
 ## Common Operations
 
 ### Finding a Value
