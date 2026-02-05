@@ -13,7 +13,7 @@ YATL is designed with simplicity and reliability in mind:
 
 ## Documentation
 
-See [YATL.md](YATL.md) for detailed usage information and the API documentation at https://dylanetaft.github.io/YATL/
+https://df00znet-dev.github.io/YATL/ for more detailed usage information.
 
 ## Examples
 
