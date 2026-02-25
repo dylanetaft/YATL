@@ -3,6 +3,7 @@ name = "short"
 count = 42
 quoted = "hello"
 same = "12345"
+empty = ""
 multiline = """
 first line
 second line

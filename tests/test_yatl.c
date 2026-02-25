@@ -445,6 +445,17 @@ static MunitResult test_updates_longer(const MunitParameter params[], void *data
     munit_assert_int(res, ==, YATL_OK);
     assert_span_text(&val_span2, "much longer value here");
 
+    YATL_Span_t empty_span;
+    res = get_value_span(&doc_span, "empty", &empty_span);
+    munit_assert_int(res, ==, YATL_OK);
+    const char *empty_val = "nonempty";
+    res = YATL_span_set_value(&empty_span, empty_val, strlen(empty_val));
+    munit_assert_int(res, ==, YATL_OK);
+    assert_span_text(&empty_span, "nonempty");
+
+
+
+
     YATL_doc_free(&doc);
     return MUNIT_OK;
 }
